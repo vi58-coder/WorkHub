@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1A2930;
+    background-color: #2C3E50;
     padding: 1.5rem 2rem;
 }
 
@@ -69,6 +69,7 @@ body{
 
 .navbar-right {
     display: flex;
+    gap: 1rem;
     align-items: center;
 }
 
@@ -94,4 +95,225 @@ body{
 
 .sign-up:hover, .log-in:hover {
     background-color: #0056b3;
+}
+
+.first__nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0;
+    padding: 1rem 15px 8px 15px;
+}
+
+.bottom__nav{
+    padding: 5px 2rem;
+}
+
+.first__nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 50px;
+    background-color: #F9FDFC;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero__head {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero__para {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    max-width: 85%;
+    
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #18BC9c;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.search-button i {
+    font-size: 16px;
+}
+
+.popular-services {
+    display: flex;
+    align-items: center;
+}
+
+.popular-services span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.popular-services a {
+    color: grey;
+    padding: 2px 4px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.popular-services a:hover {
+    color: white;
+    background-color: grey;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image img {
+    width: 400px;
+    border-radius: 8px;
+}
+
+.profile-card {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.profile-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    color: #ffc107;
+}
+
+.rating span {
+    margin-right: 5px;
+}
+
+
+.categories-section {
+    padding: 40px;
+    text-align: start;
+    background-color: #ffffff;
+}
+
+.category__header {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category {
+    position: relative;
+    width: calc(16.66% - 10px);
+    margin-bottom: 20px;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.category:hover .overlay {
+    opacity: 1;
+}
+
+.overlay span {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.overlay h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.all-categories {
+    display: inline-block;
+    margin-top: 20px;
+    color: #28a745;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.all-categories:hover {
+    text-decoration: underline;
 }
