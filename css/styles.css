@@ -321,8 +321,8 @@ body{
 
 
 .main__part-section{
-    background-color: #f7fff7;
-    padding: 40px 6rem;
+    background-color: #F1FEF8;
+    padding: 40px rem;
 }
 
 .best-part-section {
@@ -370,23 +370,11 @@ body{
     position: relative;
 }
 
-.video img {
-    width: 100%;
-    border-radius: 8px;
+video{
+    width: 500px;
+    border-radius: 12px;
 }
 
-.play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 48px;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    padding: 10px 20px;
-    cursor: pointer;
-}
 
 
 /* 
@@ -424,6 +412,17 @@ section {
     text-align: left;
 }
 
+.my-wrap{
+    display: flex;
+    gap: 12px;
+}
+
+.my-wrap i{
+    padding-top: 4px;
+    font-size: 19px;
+    color: #18BC9c;
+}
+
 .service-item img, .great-item img {
     width: 40px;
     height: 40px;
@@ -445,12 +444,9 @@ section {
 .workway__main{
     padding: 40px 20px;
     text-align: center;
-    background-color: #F9FDFC;
+    background-color: #F1FEF8;
 }
 
-.work-your-way-section {
-    
-}
 
 .work-your-way-section h2 {
     font-size: 32px;
@@ -513,7 +509,7 @@ section {
 }
 
 .learn-more-btn {
-    background-color: #00a676;
+    background-color: #18BC9c;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -561,7 +557,7 @@ section {
 }
 
 .post__para{
-    padding-bottom: 14px;
+    padding-bottom: 16px;
 }
 
 .testi__image{
@@ -581,11 +577,16 @@ section {
 }
 
 .button__3{
-    width: 10%;
-    padding: 7px 5px;
+    padding: 12px 15px;
     border: none;
+    font-size: 15px;
     border-radius: 4px;
-    background-color: #2EB69C;
+    background-color: #18BC9c;
+    color: white;
+}
+
+.button__3:hover{
+    background-color: #418a7b;
 }
 
 
@@ -611,6 +612,11 @@ section {
     margin-bottom: 20px;
 }
 
+.top-skills{
+    padding-bottom: 1rem;
+}
+
+
 .wrapping ul {
     list-style: none;
     padding: 0;
@@ -634,9 +640,9 @@ section {
 
 
 .browse-all-btn {
-    color: green;
+    color: #18BC9c;
     background-color: white;
-    border: 2px solid green;
+    border: 2px solid#18BC9c;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
@@ -645,7 +651,7 @@ section {
 }
 
 .browse-all-btn:hover {
-    background-color: #007f56;
+    background-color: #18BC9c;
     color: white;
 }
 
@@ -653,7 +659,7 @@ section {
     display: flex;
     gap: 5rem;
     padding-left: 7rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
     
 }
 
