@@ -10,19 +10,28 @@ body{
     font-family: 'Open Sans';
 }
 
+.overall__nav{
+    background-color: #2C3E50;
+    padding: 1.5rem 2rem;
+}
+
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2C3E50;
-    padding: 1.5rem 2rem;
+    padding: 0 3rem;
+    
 }
 
 .navbar-brand {
     color: #fff;
     font-size: 24px;
     font-weight: bold;
+}
+
+.topper{
+    font-weight: 400;
 }
 
 .navbar-menu {
@@ -38,6 +47,7 @@ body{
 
 .navbar-menu a {
     color: #fff;
+    font-size: 18px;
     text-decoration: none;
     padding: 10px 20px;
     display: block;
@@ -83,6 +93,16 @@ body{
     margin-right: 10px;
 }
 
+.my-icons{
+    display: flex;
+    gap: 2px;
+}
+
+.my-icons i{
+    color: white;
+    padding-top: 4px;
+}
+
 .post-job:hover {
     background-color: #0056b3;
 }
@@ -90,12 +110,9 @@ body{
 .sign-up, .log-in {
     color: #fff;
     text-decoration: none;
-    padding: 10px 20px;
 }
 
-.sign-up:hover, .log-in:hover {
-    background-color: #0056b3;
-}
+
 
 .first__nav{
     list-style: none;
@@ -212,7 +229,9 @@ body{
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     padding: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .profile-card img {
@@ -222,6 +241,9 @@ body{
     margin-right: 10px;
 }
 
+.profile-info{
+    text-align: center;
+}
 .profile-info h3 {
     margin: 0;
     font-size: 16px;
@@ -236,6 +258,7 @@ body{
 .rating {
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #ffc107;
 }
 
@@ -322,29 +345,42 @@ body{
 
 .main__part-section{
     background-color: #F1FEF8;
-    padding: 40px rem;
+    padding: 40px 0rem;
 }
 
 .best-part-section {
     display: flex;
-    justify-content: center;
+    padding: 0 5rem;
     align-items: center;
+    justify-content: center;
     
 }
 
-.content {
+.content__1 {
     flex: 1;
-    margin-right: 20px;
+    padding-left: 4rem;
 }
 
 .content-head{
     font-size: 38px;
     margin-bottom: 20px;
+    text-align: start;
 }
 
 .content__order{
     list-style: none;
     padding: 0;
+}
+
+.checking{
+    display: flex;
+    gap: 6px;
+}
+
+.checking i{
+    font-size: 18px;
+    padding-top: 4px;
+    color: grey;
 }
 
 .content__listing{
@@ -479,11 +515,20 @@ section {
     border-radius: 8px;
 }
 
+
+
 .details {
     flex: 2;
     text-align: left;
+    padding-top: 2rem;
    
 }
+
+.details p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 .payment-term {
     margin-bottom: 20px;

@@ -8,34 +8,42 @@
     <title>Work hub</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar-brand">WORKHUB</div>
-        <ul class="navbar-menu">
-            <li><a href="#">Find Freelancers</a></li>
-            <li><a href="#">Find Jobs</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropbtn">About</a>
-                <div class="dropdown-content">
-                    <a href="#">Company</a>
-                    <a href="#">Team</a>
-                    <a href="#">Careers</a>
+    <div class="overall__nav">
+        <nav class="navbar">
+            <div class="navbar-brand">WORK<span class="topper">HUB</span></div>
+            <ul class="navbar-menu">
+                <li><a href="#">Find Freelancers</a></li>
+                <li><a href="#">Find Jobs</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">About</a>
+                    <div class="dropdown-content">
+                        <a href="#">Company</a>
+                        <a href="#">Team</a>
+                        <a href="#">Careers</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Solutions</a>
+                    <div class="dropdown-content">
+                        <a href="#">Product</a>
+                        <a href="#">Service</a>
+                        <a href="#">Support</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="navbar-right">
+                <button class="post-job">Post a Job</button>
+                <div class="my-icons">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <a href="#" class="sign-up">Sign Up</a>
                 </div>
-            </li>
-            <li class="dropdown">
-                <a href="#" class="dropbtn">Solutions</a>
-                <div class="dropdown-content">
-                    <a href="#">Product</a>
-                    <a href="#">Service</a>
-                    <a href="#">Support</a>
-                </div>
-            </li>
-        </ul>
-        <div class="navbar-right">
-            <button class="post-job">Post a Job</button>
-            <a href="#" class="sign-up">Sign Up</a>
-            <a href="#" class="log-in">Log In</a>
-        </div>
-    </nav> 
+               <div class="my-icons">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <a href="#" class="log-in">Log In</a>
+               </div>
+            </div>
+        </nav> 
+    </div>
 
     <nav class="bottom__nav">
         <ul class="first__nav">
@@ -68,9 +76,9 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="path/to/your/image.jpg" alt="Product Image">
+                <img src="images/platforms.jpeg" alt="Product Image">
                 <div class="profile-card">
-                    <img src="path/to/your/profile-image.jpg" alt="Profile Image">
+                    <img src="images/user-4.jpg" alt="Profile Image">
                     <div class="profile-info">
                         <h3>Graphic Designer</h3>
                         <p>Frankie Albion</p>
@@ -136,23 +144,35 @@
 
 <div class="main__part-section">
     <section class="best-part-section">
-        <div class="content">
+        <div class="content__1">
             <h2 class="content-head">The best part? Everything.</h2>
             <ul class="content__order">
                 <li class="content__listing">
-                    <h3 class="content__sec">Stick to your budget</h3>
+                    <div class="checking">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <h3 class="content__sec">Stick to your budget</h3>
+                    </div>
                     <p class="content__para">Find the right service for every price point. No hourly rates, just project-based pricing.</p>
                 </li>
                 <li class="content__listing">
-                    <h3 class="content__sec">Get quality work done quickly</h3>
+                    <div class="checking">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <h3 class="content__sec">Get quality work done quickly</h3>
+                    </div>
                     <p class="content__para">Hand your project over to a talented freelancer in minutes, get long-lasting results.</p>
                 </li>
                 <li class="content__listing">
-                    <h3 class="content__sec">Pay when you're happy</h3>
+                    <div class="checking">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <h3 class="content__sec">Pay when you're happy</h3>
+                    </div>
                     <p class="content__para">Upfront quotes mean no surprises. Payments only get released when you approve.</p>
                 </li>
                 <li class="content__listing">
-                    <h3 class="content__sec">Count on 24/7 support</h3>
+                    <div class="checking">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <h3 class="content__sec">Count on 24/7 support</h3>
+                    </div>
                     <p class="content__para">Our round-the-clock support team is available to help anytime, anywhere.</p>
                 </li>
             </ul>
@@ -236,12 +256,13 @@
 <div class="workway__main">
     <section class="work-your-way-section">
         <h2>Work Your Way</h2>
-        <p>Choose from four Payment terms and create Agreements.</p>
+        
         <div class="content">
             <div class="image">
                 <img src="images/Global.jpg" alt="Laptop showing payment terms">
             </div>
             <div class="details">
+                <p class="det__para">Choose from four Payment terms and create Agreements.</p>
                 <div class="payment-term">
                     <h3><span>&#10004;</span> Fixed Price</h3>
                     <p>Set a total fixed cost for your job and create milestones to ensure you're satisfied every step of the way. Set a due date and the amount to be paid for each milestone.</p>
