@@ -96,11 +96,13 @@ body{
 .my-icons{
     display: flex;
     gap: 2px;
+    font-weight: 300;
 }
 
 .my-icons i{
     color: white;
     padding-top: 4px;
+   
 }
 
 .post-job:hover {
@@ -488,7 +490,7 @@ section {
 
 
 .workway__main{
-    padding: 40px 20px;
+    padding: 40px 4rem 40px 0px;
     text-align: center;
     background-color: #F1FEF8;
 }
@@ -501,7 +503,7 @@ section {
 
 .work-your-way-section p {
     font-size: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .content {
@@ -509,7 +511,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 70%;
+    max-width: 90%;
     margin: auto;
     gap: 20px;
     padding-left: 14rem;
@@ -517,7 +519,7 @@ section {
 
 .image {
     flex: 1;
-    width: 100%;
+    align-self: flex-end;
 }
 
 .image img {
@@ -525,12 +527,16 @@ section {
     border-radius: 8px;
 }
 
+.payment-term p{
+    width: 80%;
+}
+
 
 
 .details {
     flex: 2;
     text-align: left;
-    padding-top: 2rem;
+    padding-top: 1rem;
    
 }
 
