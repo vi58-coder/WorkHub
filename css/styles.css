@@ -137,9 +137,9 @@ body{
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    gap: 10rem;
     align-items: center;
-    padding: 5rem 50px;
+    padding: 5rem 5rem;
     background-color: #F9FDFC;
 }
 
@@ -294,10 +294,12 @@ body{
 .category img {
     width: 100%;
     height: auto;
+    filter: brightness(0.5);
     border-radius: 8px;
 }
 
-.overlay {
+
+/* .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -312,20 +314,28 @@ body{
     border-radius: 8px;
     opacity: 0;
     transition: opacity 0.3s ease;
-}
+} */
 
-.category:hover .overlay {
-    opacity: 1;
-}
+
 
 .overlay span {
     font-size: 14px;
-    margin-bottom: 5px;
+    font-weight: 100;
+    
 }
 
 .overlay h3 {
     font-size: 18px;
+    font-weight: 300;
     margin: 0;
+    padding-top: .5rem;
+} 
+
+.overlay{
+    position: absolute;
+    bottom: 16rem;
+    left: 1rem;
+    color: white;
 }
 
 .all-categories {
