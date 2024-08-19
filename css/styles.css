@@ -642,6 +642,10 @@ section {
     color: white;
 }
 
+a{
+    text-decoration: none;
+}
+
 .button__3{
     padding: 12px 15px;
     border: none;
@@ -785,6 +789,15 @@ section {
 .footer-list {
     margin-bottom: 10px;
     font-size: 0.9em;
+}
+
+.footer-list a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-list a:hover{
+    text-decoration: underline;
 }
 
 .footer-bottom {
